@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341285173614",
+    "firebase_url": "https://smartnurse-fee8a.firebaseio.com",
+    "project_id": "smartnurse-fee8a",
+    "storage_bucket": "smartnurse-fee8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341285173614:android:962a17ea0daafedd",
+        "android_client_info": {
+          "package_name": "com.example.dell.hackit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341285173614-dase8q6lqirto2t92rpa71ravi8ugts0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb-r_TgqcVGpPl3zRa_cZkNWPbNB4wc8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

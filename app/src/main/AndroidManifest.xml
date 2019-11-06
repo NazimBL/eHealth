@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.hackit">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true" />
+        <service
+            android:name=".MonitorService"
+            android:enabled="true" />
+
+        <activity android:name=".Root" />
+        <activity
+            android:name=".RegisterActivity"
+            android:icon="@drawable/logo" />
+        <activity
+            android:name=".Reminder"
+            android:icon="@drawable/logo" />
+        <activity
+            android:name=".Medoc"
+            android:icon="@drawable/logo">
+            <receiver
+                android:name=".Mote"
+                android:process=":remote" />
+        </activity>
+        <activity
+            android:name=".Sos"
+            android:icon="@drawable/logo" />
+        <activity
+            android:name=".Home"
+            android:icon="@drawable/logo" />
+        <activity
+            android:name=".AlertActivity"
+            android:icon="@drawable/logo" />
+        <activity
+            android:name=".ActivityPrincipale"
+            android:icon="@drawable/logo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:icon="@drawable/logo"></activity>
+        <activity android:name=".HelpActivity"></activity>
+    </application>
+
+</manifest>

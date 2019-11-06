@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dell.hackit.HelpActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/t6"
+        android:layout_gravity="center"
+        android:text="Profile"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t0"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Check and Modify your personnal account informations."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/t1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Health Monitor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/t2"
+        android:layout_gravity="center"
+        android:text="-Buy your bracelet and get a real time monitoring of your body temperature,humidity and Heart beat."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t3"
+        android:layout_gravity="center"
+        android:text="-Connect your Bracelet to your phone by clicking on the Connect Button,then click anywhere on the screen to begin Monitoring."
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t4"
+        android:layout_gravity="center"
+        android:text="-SmartNurse alerts you when you reach anormal values,by default the alarm is a vocale message that inform you of the danger but you can also activate auto call/sms on the Emergency Call section."
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/t5"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Reminder"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t7"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="-Set you Medications Schedule.You can mark up to 4 meds then set each time you have to take them by clicking on the displayed list."
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/t8"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Emergency Calls"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t9"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="-Activate/Disactivate call/sms Alerts when Health Monitoring is on."
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t10"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="-You can also modify numbers you want to call in emergency as well as the default SMS delivered."
+        ></TextView>
+</LinearLayout>
+</ScrollView>

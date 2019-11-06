@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.example.dell.hackit.Sos">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tit"
+        android:text="Modify your Sos calls and Sms"
+        android:textSize="30dp"
+
+        />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:id="@+id/sw"
+        android:text="Emergency Call     "
+        android:textColor="@color/editTextColor"
+        android:textSize="20dp"
+
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:id="@+id/sw2"
+        android:text="Auto SMS     "
+        android:textColor="@color/editTextColor"
+        android:textSize="20dp"
+
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/edit1"
+        android:layout_marginTop="15dp"
+        android:hint="Person 1"
+        android:inputType="phone"
+        android:backgroundTint="@color/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/lv_bg"
+        android:gravity="center_vertical"
+        android:id="@+id/p1"
+        android:layout_marginTop="5dp"
+        android:text="Person 1"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/edit2"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:inputType="phone"
+        android:hint="Person 2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:id="@+id/p2"
+        android:layout_marginTop="5dp"
+        android:text="Person 2"
+        android:background="@drawable/lv_bg"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/sms"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+
+        android:hint="Write the auto sms"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done"
+        android:text="done"
+
+        android:textSize="20dp"
+        android:background="@drawable/shape"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>
